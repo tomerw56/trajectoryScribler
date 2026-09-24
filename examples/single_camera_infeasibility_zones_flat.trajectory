@@ -1,0 +1,380 @@
+{
+  "version": 6,
+  "terrain_file": "../terrains/single_cam_flat.terrain",
+  "covariance_scope": "prediction_xy",
+  "targets": [
+    {
+      "id": "solo_straight",
+      "name": "Straight \u2014 tiny covariance",
+      "color": "#46d36f",
+      "scribble_xy": [
+        [
+          -80.0,
+          -42.0
+        ],
+        [
+          80.0,
+          -42.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2,
+        "generation_mode": "freehand",
+        "dubins_min_turn_radius_m": 10.0
+      },
+      "motion_config": {
+        "speed_mps": 3.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "solo_gentle_arc",
+      "name": "Gentle arc \u2014 moderate covariance",
+      "color": "#ffd166",
+      "scribble_xy": [
+        [
+          -23.49231551964771,
+          -38.55050358314172
+        ],
+        [
+          -22.20172231068844,
+          -41.49275973990056
+        ],
+        [
+          -20.544445380631128,
+          -44.24520143775665
+        ],
+        [
+          -18.54785632088204,
+          -46.762369340278724
+        ],
+        [
+          -16.244930803133997,
+          -49.00268989383841
+        ],
+        [
+          -13.673703953060674,
+          -50.92916195656321
+        ],
+        [
+          -10.876642162051821,
+          -52.50996790932135
+        ],
+        [
+          -7.899941712148813,
+          -53.71899915562736
+        ],
+        [
+          -4.792765798093471,
+          -54.53628733131045
+        ],
+        [
+          -1.606432547836751,
+          -54.94833410208487
+        ],
+        [
+          1.6064325478367416,
+          -54.94833410208487
+        ],
+        [
+          4.792765798093462,
+          -54.53628733131045
+        ],
+        [
+          7.899941712148825,
+          -53.71899915562735
+        ],
+        [
+          10.876642162051832,
+          -52.50996790932134
+        ],
+        [
+          13.673703953060665,
+          -50.92916195656322
+        ],
+        [
+          16.244930803133993,
+          -49.00268989383841
+        ],
+        [
+          18.547856320882033,
+          -46.76236934027873
+        ],
+        [
+          20.544445380631117,
+          -44.24520143775667
+        ],
+        [
+          22.201722310688446,
+          -41.49275973990055
+        ],
+        [
+          23.49231551964771,
+          -38.55050358314172
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2,
+        "generation_mode": "freehand",
+        "dubins_min_turn_radius_m": 10.0
+      },
+      "motion_config": {
+        "speed_mps": 4.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "solo_tight_arc",
+      "name": "Tight arc \u2014 sustained changing",
+      "color": "#ff9f43",
+      "scribble_xy": [
+        [
+          22.916221867996835,
+          -31.817693036146494
+        ],
+        [
+          25.637124879336994,
+          -31.983074392163715
+        ],
+        [
+          28.325151078000264,
+          -31.530107124761404
+        ],
+        [
+          30.841593380540182,
+          -30.482165175975293
+        ],
+        [
+          33.05659874734716,
+          -28.893324272972627
+        ],
+        [
+          34.85586883772763,
+          -26.84557152132015
+        ],
+        [
+          36.146558013981604,
+          -24.444574719918933
+        ],
+        [
+          36.862064346647564,
+          -21.814229708717374
+        ],
+        [
+          36.96546639625407,
+          -19.09026711606394
+        ],
+        [
+          36.45142842733455,
+          -16.41324840926581
+        ],
+        [
+          35.34647574216656,
+          -13.921312664994282
+        ],
+        [
+          33.70762592650959,
+          -11.743048339491262
+        ],
+        [
+          31.619446637572327,
+          -9.990857868311968
+        ],
+        [
+          29.189691757748424,
+          -8.75515749443084
+        ],
+        [
+          26.543741096593973,
+          -8.099711624221586
+        ],
+        [
+          23.818130562625978,
+          -8.058342467102767
+        ],
+        [
+          21.15350665994684,
+          -8.633184747479765
+        ],
+        [
+          18.68736887059515,
+          -9.794575549048984
+        ],
+        [
+          16.546974429008653,
+          -11.48258497570029
+        ],
+        [
+          14.842771615254389,
+          -13.610108644106845
+        ],
+        [
+          13.662700421142949,
+          -16.067362429711103
+        ],
+        [
+          13.067654685311696,
+          -18.727547528967744
+        ],
+        [
+          13.088339859431986,
+          -21.45339351023845
+        ],
+        [
+          13.723688550569099,
+          -24.104241719908025
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2,
+        "generation_mode": "freehand",
+        "dubins_min_turn_radius_m": 10.0
+      },
+      "motion_config": {
+        "speed_mps": 5.5,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "solo_s_curve",
+      "name": "S-curve \u2014 large covariance",
+      "color": "#e66cff",
+      "scribble_xy": [
+        [
+          -70.0,
+          50.0
+        ],
+        [
+          -40.0,
+          45.0
+        ],
+        [
+          -10.0,
+          30.0
+        ],
+        [
+          10.0,
+          25.0
+        ],
+        [
+          25.0,
+          25.0
+        ],
+        [
+          45.0,
+          15.0
+        ],
+        [
+          65.0,
+          -5.0
+        ],
+        [
+          80.0,
+          -25.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2,
+        "generation_mode": "freehand",
+        "dubins_min_turn_radius_m": 10.0
+      },
+      "motion_config": {
+        "speed_mps": 5.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    }
+  ],
+  "cameramen": [
+    {
+      "id": "cam_origin",
+      "name": "Origin observer",
+      "color": "#ffffff",
+      "position_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "view_radius_m": 50.0,
+      "view_start_angle_deg": 0.0,
+      "view_end_angle_deg": 360.0
+    }
+  ],
+  "forbidden_regions": [
+    {
+      "points": [
+        {
+          "x": 15.0,
+          "y": 15.0
+        },
+        {
+          "x": 35.0,
+          "y": 15.0
+        },
+        {
+          "x": 35.0,
+          "y": 35.0
+        },
+        {
+          "x": 15.0,
+          "y": 35.0
+        }
+      ]
+    },
+    {
+      "points": [
+        {
+          "x": -35.0,
+          "y": -35.0
+        },
+        {
+          "x": -15.0,
+          "y": -35.0
+        },
+        {
+          "x": -15.0,
+          "y": -15.0
+        },
+        {
+          "x": -35.0,
+          "y": -15.0
+        }
+      ]
+    }
+  ]
+}
