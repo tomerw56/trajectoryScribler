@@ -903,6 +903,17 @@ def create_app(
 
         selected = max(1, min(selected, len(offsets)))
         return options, selected
+    @app.callback(
+        Input("cnc-generate-scenario-button", "n_clicks"),
+        State("scenario-select", "value"),
+
+        prevent_initial_call=True,
+    )
+    def genrate_scenario(_n_clicks,
+            scenario_path):
+            scenario = repository.load(scenario_path)
+            k=0
+                    
 
     @app.callback(
         Output("cnc-last-execution", "data"),
