@@ -1,0 +1,488 @@
+{
+  "version": 6,
+  "terrain_file": "../terrains/stability_demo_flat.terrain",
+  "covariance_scope": "prediction_xy",
+  "targets": [
+    {
+      "id": "demo_straight",
+      "name": "Straight \u2014 tiny covariance",
+      "color": "#46d36f",
+      "scribble_xy": [
+        [
+          -85.0,
+          -55.0
+        ],
+        [
+          85.0,
+          -55.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 3.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "demo_near_straight",
+      "name": "Near-straight \u2014 small covariance",
+      "color": "#4aa8ff",
+      "scribble_xy": [
+        [
+          -90.0,
+          -25.0
+        ],
+        [
+          -55.0,
+          -24.8
+        ],
+        [
+          -20.0,
+          -25.2
+        ],
+        [
+          20.0,
+          -24.9
+        ],
+        [
+          55.0,
+          -25.15
+        ],
+        [
+          90.0,
+          -25.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 3.5,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "demo_gentle_arc",
+      "name": "Gentle arc \u2014 moderate covariance",
+      "color": "#ffd166",
+      "scribble_xy": [
+        [
+          -70.47694655894313,
+          -35.65151074942515
+        ],
+        [
+          -66.60516693206532,
+          -44.478279219701676
+        ],
+        [
+          -61.63333614189339,
+          -52.73560431326996
+        ],
+        [
+          -55.643568962646114,
+          -60.28710802083617
+        ],
+        [
+          -48.73479240940199,
+          -67.00806968151521
+        ],
+        [
+          -41.02111185918202,
+          -72.78748586968965
+        ],
+        [
+          -32.62992648615546,
+          -77.52990372796403
+        ],
+        [
+          -23.69982513644644,
+          -81.15699746688207
+        ],
+        [
+          -14.378297394280413,
+          -83.60886199393133
+        ],
+        [
+          -4.819297643510253,
+          -84.8450023062546
+        ],
+        [
+          4.819297643510224,
+          -84.8450023062546
+        ],
+        [
+          14.378297394280384,
+          -83.60886199393134
+        ],
+        [
+          23.699825136446474,
+          -81.15699746688206
+        ],
+        [
+          32.6299264861555,
+          -77.52990372796401
+        ],
+        [
+          41.02111185918199,
+          -72.78748586968966
+        ],
+        [
+          48.734792409401976,
+          -67.00806968151522
+        ],
+        [
+          55.6435689626461,
+          -60.287108020836186
+        ],
+        [
+          61.63333614189335,
+          -52.73560431327001
+        ],
+        [
+          66.60516693206534,
+          -44.47827921970165
+        ],
+        [
+          70.47694655894313,
+          -35.65151074942514
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 4.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "demo_tight_arc",
+      "name": "Tight arc \u2014 sustained changing",
+      "color": "#ff9f43",
+      "scribble_xy": [
+        [
+          -31.52703644666139,
+          0.3038449397558409
+        ],
+        [
+          -27.592375466801776,
+          1.42240331003066
+        ],
+        [
+          -23.967588937379457,
+          3.3180964471866154
+        ],
+        [
+          -20.80430829283382,
+          5.911624048347752
+        ],
+        [
+          -18.23485933435991,
+          9.09449412171535
+        ],
+        [
+          -16.36672680019811,
+          12.733561404543176
+        ],
+        [
+          -15.278058082913063,
+          16.67659707241972
+        ],
+        [
+          -15.01439418137224,
+          20.758656748755428
+        ],
+        [
+          -15.586764637667567,
+          24.808980429018767
+        ],
+        [
+          -16.971226151244846,
+          28.658135683300547
+        ],
+        [
+          -19.10986417085371,
+          32.14510532400939
+        ],
+        [
+          -21.913215565899375,
+          35.12402304862637
+        ],
+        [
+          -25.264011032433032,
+          37.470275293292154
+        ],
+        [
+          -29.022080682109692,
+          39.08571404555758
+        ],
+        [
+          -33.03021760437663,
+          39.902762554828726
+        ],
+        [
+          -37.12075411838709,
+          39.88724219114717
+        ],
+        [
+          -41.12257561802249,
+          39.03980219964474
+        ],
+        [
+          -44.86827860808807,
+          37.39589254143493
+        ],
+        [
+          -48.20117349796729,
+          35.02428095705635
+        ],
+        [
+          -50.98183921309865,
+          32.024176286409904
+        ],
+        [
+          -53.093955432917255,
+          28.521078381965765
+        ],
+        [
+          -54.44916848210614,
+          24.661528220943126
+        ],
+        [
+          -54.99078732604811,
+          20.606977828849256
+        ],
+        [
+          -54.69615506024416,
+          16.52703644666139
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 5.5,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "demo_s_curve",
+      "name": "S-curve \u2014 large covariance",
+      "color": "#e66cff",
+      "scribble_xy": [
+        [
+          -90.0,
+          5.0
+        ],
+        [
+          -70.0,
+          18.0
+        ],
+        [
+          -50.0,
+          28.0
+        ],
+        [
+          -25.0,
+          25.0
+        ],
+        [
+          0.0,
+          10.0
+        ],
+        [
+          25.0,
+          -5.0
+        ],
+        [
+          50.0,
+          -8.0
+        ],
+        [
+          70.0,
+          2.0
+        ],
+        [
+          90.0,
+          18.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 5.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "demo_zigzag",
+      "name": "Zigzag \u2014 very large covariance",
+      "color": "#ff5c5c",
+      "scribble_xy": [
+        [
+          -90.0,
+          45.0
+        ],
+        [
+          -65.0,
+          60.0
+        ],
+        [
+          -40.0,
+          30.0
+        ],
+        [
+          -15.0,
+          60.0
+        ],
+        [
+          10.0,
+          28.0
+        ],
+        [
+          35.0,
+          60.0
+        ],
+        [
+          60.0,
+          30.0
+        ],
+        [
+          90.0,
+          50.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 7.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    }
+  ],
+  "cameramen": [
+    {
+      "id": "cam_west",
+      "name": "West observer",
+      "color": "#8bd3dd",
+      "position_xyz": [
+        -72.0,
+        -8.0,
+        10.0
+      ],
+      "view_radius_m": 65.0,
+      "view_start_angle_deg": -45.0,
+      "view_end_angle_deg": 45.0
+    },
+    {
+      "id": "cam_south",
+      "name": "South observer",
+      "color": "#b8f2a1",
+      "position_xyz": [
+        0.0,
+        -62.0,
+        10.0
+      ],
+      "view_radius_m": 70.0,
+      "view_start_angle_deg": 45.0,
+      "view_end_angle_deg": 135.0
+    },
+    {
+      "id": "cam_north",
+      "name": "North observer",
+      "color": "#f6bd60",
+      "position_xyz": [
+        0.0,
+        63.0,
+        10.0
+      ],
+      "view_radius_m": 70.0,
+      "view_start_angle_deg": 225.0,
+      "view_end_angle_deg": 315.0
+    },
+    {
+      "id": "cam_east",
+      "name": "East observer",
+      "color": "#cdb4db",
+      "position_xyz": [
+        72.0,
+        4.0,
+        10.0
+      ],
+      "view_radius_m": 65.0,
+      "view_start_angle_deg": 135.0,
+      "view_end_angle_deg": 225.0
+    },
+    {
+      "id": "cam_center",
+      "name": "Center observer",
+      "color": "#ffffff",
+      "position_xyz": [
+        0.0,
+        0.0,
+        10.0
+      ],
+      "view_radius_m": 48.0,
+      "view_start_angle_deg": -70.0,
+      "view_end_angle_deg": 70.0
+    }
+  ]
+}

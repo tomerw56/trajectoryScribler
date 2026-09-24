@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Trajectory Dash: Debug",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/dash_app.py",
+      "args": ["--debug"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}",
+        "TRAJECTORY_DASH_DEBUG": "1"
+      },
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

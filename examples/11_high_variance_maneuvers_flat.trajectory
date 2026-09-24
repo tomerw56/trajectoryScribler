@@ -1,0 +1,540 @@
+{
+  "version": 6,
+  "terrain_file": "../terrains/stability_demo_flat.terrain",
+  "covariance_scope": "prediction_xy",
+  "targets": [
+    {
+      "id": "hv_baseline",
+      "name": "Baseline straight",
+      "color": "#46d36f",
+      "scribble_xy": [
+        [
+          -92.0,
+          -58.0
+        ],
+        [
+          92.0,
+          -58.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 3.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "hv_saw_1",
+      "name": "Sawtooth fast",
+      "color": "#ff6b6b",
+      "scribble_xy": [
+        [
+          -90.0,
+          -35.0
+        ],
+        [
+          -65.0,
+          -10.0
+        ],
+        [
+          -40.0,
+          -38.0
+        ],
+        [
+          -15.0,
+          -8.0
+        ],
+        [
+          10.0,
+          -40.0
+        ],
+        [
+          35.0,
+          -5.0
+        ],
+        [
+          60.0,
+          -36.0
+        ],
+        [
+          90.0,
+          -10.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 7.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "hv_saw_2",
+      "name": "Sawtooth tighter",
+      "color": "#ff9f43",
+      "scribble_xy": [
+        [
+          -88.0,
+          0.0
+        ],
+        [
+          -68.0,
+          22.0
+        ],
+        [
+          -48.0,
+          -4.0
+        ],
+        [
+          -28.0,
+          24.0
+        ],
+        [
+          -8.0,
+          -6.0
+        ],
+        [
+          12.0,
+          24.0
+        ],
+        [
+          32.0,
+          -4.0
+        ],
+        [
+          52.0,
+          22.0
+        ],
+        [
+          72.0,
+          -2.0
+        ],
+        [
+          90.0,
+          18.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 6.5,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "hv_box",
+      "name": "Repeated box turns",
+      "color": "#e66cff",
+      "scribble_xy": [
+        [
+          -80.0,
+          52.0
+        ],
+        [
+          -45.0,
+          52.0
+        ],
+        [
+          -45.0,
+          18.0
+        ],
+        [
+          -10.0,
+          18.0
+        ],
+        [
+          -10.0,
+          52.0
+        ],
+        [
+          25.0,
+          52.0
+        ],
+        [
+          25.0,
+          18.0
+        ],
+        [
+          60.0,
+          18.0
+        ],
+        [
+          60.0,
+          52.0
+        ],
+        [
+          88.0,
+          52.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 6.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "hv_tight_arc",
+      "name": "Very tight arc",
+      "color": "#4aa8ff",
+      "scribble_xy": [
+        [
+          -28.125667198004745,
+          2.2734604457802554
+        ],
+        [
+          -24.566718728382337,
+          2.005215551730956
+        ],
+        [
+          -21.02480472470142,
+          2.4444361377014197
+        ],
+        [
+          -17.63917564022563,
+          3.5738542334316215
+        ],
+        [
+          -14.542937582021892,
+          5.349066733258599
+        ],
+        [
+          -11.857819240444883,
+          7.700281105521993
+        ],
+        [
+          -9.689386122094291,
+          10.535059287999683
+        ],
+        [
+          -8.122890238816922,
+          13.74195189304374
+        ],
+        [
+          -7.219918422352702,
+          17.19487984353482
+        ],
+        [
+          -7.015971036232841,
+          20.75809117550856
+        ],
+        [
+          -7.519066277943104,
+          24.2914981306129
+        ],
+        [
+          -8.709424943253762,
+          27.65618471044928
+        ],
+        [
+          -10.540248046215826,
+          30.719868163136837
+        ],
+        [
+          -12.939556722670522,
+          33.36209968359457
+        ],
+        [
+          -15.813022081411445,
+          35.47899986185691
+        ],
+        [
+          -19.047673747317628,
+          36.98734270513279
+        ],
+        [
+          -22.51634129497522,
+          37.8278276701609
+        ],
+        [
+          -26.082653957694166,
+          37.96741106581271
+        ],
+        [
+          -29.606402048212917,
+          37.40060516678141
+        ],
+        [
+          -32.949049306678276,
+          36.14969396366376
+        ],
+        [
+          -35.979179457777505,
+          34.2638570672142
+        ],
+        [
+          -38.577662845468765,
+          31.817236210501044
+        ],
+        [
+          -40.642340018913316,
+          28.906020364489578
+        ],
+        [
+          -42.09203813429099,
+          25.64466406581849
+        ],
+        [
+          -42.86976226754324,
+          22.161387633324477
+        ],
+        [
+          -42.94493617148932,
+          18.593136182434726
+        ],
+        [
+          -42.31460438188385,
+          15.080195623924821
+        ],
+        [
+          -41.00354841158057,
+          11.760677319209
+        ],
+        [
+          -39.06331246462537,
+          8.765088228102872
+        ],
+        [
+          -36.57017697435771,
+          6.211200023858398
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 6.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "hv_reverse_s",
+      "name": "Reverse S maneuver",
+      "color": "#ffd166",
+      "scribble_xy": [
+        [
+          -90.0,
+          30.0
+        ],
+        [
+          -62.0,
+          50.0
+        ],
+        [
+          -35.0,
+          22.0
+        ],
+        [
+          -8.0,
+          48.0
+        ],
+        [
+          20.0,
+          18.0
+        ],
+        [
+          48.0,
+          45.0
+        ],
+        [
+          90.0,
+          20.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 5.8,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "hv_wander",
+      "name": "Moderate wander control",
+      "color": "#7bdff2",
+      "scribble_xy": [
+        [
+          -90.0,
+          -15.0
+        ],
+        [
+          -55.0,
+          -10.0
+        ],
+        [
+          -20.0,
+          -17.0
+        ],
+        [
+          15.0,
+          -9.0
+        ],
+        [
+          50.0,
+          -16.0
+        ],
+        [
+          90.0,
+          -12.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 4.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    }
+  ],
+  "cameramen": [
+    {
+      "id": "hv_cam_w",
+      "name": "Variance west",
+      "color": "#8bd3dd",
+      "position_xyz": [
+        -82.0,
+        0.0,
+        10.0
+      ],
+      "view_radius_m": 65.0,
+      "view_start_angle_deg": -50.0,
+      "view_end_angle_deg": 50.0
+    },
+    {
+      "id": "hv_cam_sw",
+      "name": "Variance south-west",
+      "color": "#b8f2a1",
+      "position_xyz": [
+        -45.0,
+        -58.0,
+        10.0
+      ],
+      "view_radius_m": 65.0,
+      "view_start_angle_deg": 20.0,
+      "view_end_angle_deg": 115.0
+    },
+    {
+      "id": "hv_cam_n",
+      "name": "Variance north",
+      "color": "#f6bd60",
+      "position_xyz": [
+        0.0,
+        63.0,
+        10.0
+      ],
+      "view_radius_m": 65.0,
+      "view_start_angle_deg": 220.0,
+      "view_end_angle_deg": 320.0
+    },
+    {
+      "id": "hv_cam_c",
+      "name": "Variance center",
+      "color": "#ffffff",
+      "position_xyz": [
+        0.0,
+        0.0,
+        10.0
+      ],
+      "view_radius_m": 48.0,
+      "view_start_angle_deg": -90.0,
+      "view_end_angle_deg": 90.0
+    },
+    {
+      "id": "hv_cam_se",
+      "name": "Variance south-east",
+      "color": "#ffafcc",
+      "position_xyz": [
+        45.0,
+        -58.0,
+        10.0
+      ],
+      "view_radius_m": 65.0,
+      "view_start_angle_deg": 65.0,
+      "view_end_angle_deg": 160.0
+    },
+    {
+      "id": "hv_cam_e",
+      "name": "Variance east",
+      "color": "#cdb4db",
+      "position_xyz": [
+        82.0,
+        0.0,
+        10.0
+      ],
+      "view_radius_m": 65.0,
+      "view_start_angle_deg": 130.0,
+      "view_end_angle_deg": 230.0
+    }
+  ]
+}

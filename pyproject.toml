@@ -1,0 +1,66 @@
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.venv
+  | build
+  | dist
+  | logs
+)/
+'''
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["trajectory_app", "trajectory_dash"]
+exclude = [".venv", "build", "dist", "logs", "reference", "terrains"]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "F",   # pyflakes
+    "W",   # pycodestyle warnings
+    "I",   # import ordering
+    "B",   # bugbear
+    "UP",  # pyupgrade
+]
+ignore = [
+    "E501", # Black owns line wrapping
+    "E701", # Existing compact GUI code; can be cleaned gradually
+    "E702",
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["trajectory_app", "trajectory_dash"]
+
+[tool.mypy]
+python_version = "3.11"
+files = ["trajectory_app", "trajectory_dash", "tests"]
+ignore_missing_imports = true
+check_untyped_defs = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_return_any = false
+disallow_untyped_defs = false
+no_implicit_optional = true
+pretty = true
+show_error_codes = true
+show_column_numbers = true
+warn_unused_configs = true
+exclude = ["^reference/"]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+addopts = "-ra --strict-config --strict-markers"
+
+[tool.coverage.run]
+source = ["trajectory_app"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true

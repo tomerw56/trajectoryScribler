@@ -1,0 +1,412 @@
+{
+  "version": 6,
+  "terrain_file": "../terrains/ridge_pass.terrain",
+  "covariance_scope": "full_3d",
+  "targets": [
+    {
+      "id": "ridge_pass_west_east",
+      "name": "Pass west-to-east",
+      "color": "#46d36f",
+      "scribble_xy": [
+        [
+          -92.0,
+          -8.0
+        ],
+        [
+          -55.0,
+          -5.0
+        ],
+        [
+          -20.0,
+          0.0
+        ],
+        [
+          20.0,
+          2.0
+        ],
+        [
+          55.0,
+          4.0
+        ],
+        [
+          92.0,
+          6.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 6.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 4.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "ridge_pass_east_west",
+      "name": "Pass east-to-west",
+      "color": "#4aa8ff",
+      "scribble_xy": [
+        [
+          92.0,
+          18.0
+        ],
+        [
+          52.0,
+          16.0
+        ],
+        [
+          12.0,
+          10.0
+        ],
+        [
+          -30.0,
+          8.0
+        ],
+        [
+          -65.0,
+          4.0
+        ],
+        [
+          -92.0,
+          0.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 6.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 4.5,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "ridge_northern_arc",
+      "name": "Northern ridge arc",
+      "color": "#ffd166",
+      "scribble_xy": [
+        [
+          -67.0667762407121,
+          -23.273751368811745
+        ],
+        [
+          -62.863386031552494,
+          -31.04093616510766
+        ],
+        [
+          -57.764598394891124,
+          -38.252039655316196
+        ],
+        [
+          -51.843038138608215,
+          -44.80435016699679
+        ],
+        [
+          -45.183049268889064,
+          -50.604539574721876
+        ],
+        [
+          -37.8794936326305,
+          -55.56999262337149
+        ],
+        [
+          -30.036399748516377,
+          -59.62998366218437
+        ],
+        [
+          -21.765481072197492,
+          -62.726684028701726
+        ],
+        [
+          -13.18454480073026,
+          -64.81598573388632
+        ],
+        [
+          -4.41581388053974,
+          -65.86812971622088
+        ],
+        [
+          4.415813880539712,
+          -65.86812971622088
+        ],
+        [
+          13.184544800730233,
+          -64.81598573388634
+        ],
+        [
+          21.765481072197527,
+          -62.726684028701726
+        ],
+        [
+          30.036399748516352,
+          -59.62998366218439
+        ],
+        [
+          37.87949363263047,
+          -55.569992623371505
+        ],
+        [
+          45.1830492688891,
+          -50.604539574721855
+        ],
+        [
+          51.8430381386082,
+          -44.804350166996805
+        ],
+        [
+          57.7645983948911,
+          -38.25203965531622
+        ],
+        [
+          62.86338603155246,
+          -31.04093616510771
+        ],
+        [
+          67.0667762407121,
+          -23.27375136881174
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 7.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 4.3,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "ridge_southern_s",
+      "name": "Southern pass S-curve",
+      "color": "#e66cff",
+      "scribble_xy": [
+        [
+          -90.0,
+          -52.0
+        ],
+        [
+          -62.0,
+          -30.0
+        ],
+        [
+          -32.0,
+          -50.0
+        ],
+        [
+          0.0,
+          -24.0
+        ],
+        [
+          34.0,
+          -48.0
+        ],
+        [
+          64.0,
+          -26.0
+        ],
+        [
+          92.0,
+          -44.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 6.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 5.2,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "ridge_turner",
+      "name": "Pass turning bird",
+      "color": "#ff6b6b",
+      "scribble_xy": [
+        [
+          -82.0,
+          48.0
+        ],
+        [
+          -35.0,
+          48.0
+        ],
+        [
+          -35.0,
+          14.0
+        ],
+        [
+          18.0,
+          14.0
+        ],
+        [
+          18.0,
+          48.0
+        ],
+        [
+          82.0,
+          48.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 6.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 5.8,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "ridge_cruise",
+      "name": "High cruise over pass",
+      "color": "#9b8cff",
+      "scribble_xy": [
+        [
+          -92.0,
+          28.0
+        ],
+        [
+          -48.0,
+          26.0
+        ],
+        [
+          0.0,
+          24.0
+        ],
+        [
+          48.0,
+          28.0
+        ],
+        [
+          92.0,
+          24.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "cruise_altitude",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 72.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 4.8,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    }
+  ],
+  "cameramen": [
+    {
+      "id": "ridge_cam_w",
+      "name": "Pass west observer",
+      "color": "#8bd3dd",
+      "position_xyz": [
+        -78.0,
+        0.0,
+        8.853472885
+      ],
+      "view_radius_m": 65.0,
+      "view_start_angle_deg": -40.0,
+      "view_end_angle_deg": 45.0
+    },
+    {
+      "id": "ridge_cam_s",
+      "name": "Pass south observer",
+      "color": "#b8f2a1",
+      "position_xyz": [
+        -12.0,
+        -60.0,
+        42.20060087200002
+      ],
+      "view_radius_m": 72.0,
+      "view_start_angle_deg": 35.0,
+      "view_end_angle_deg": 135.0
+    },
+    {
+      "id": "ridge_cam_mid",
+      "name": "Pass middle observer",
+      "color": "#ffffff",
+      "position_xyz": [
+        0.0,
+        6.0,
+        46.94573275
+      ],
+      "view_radius_m": 52.0,
+      "view_start_angle_deg": -80.0,
+      "view_end_angle_deg": 100.0
+    },
+    {
+      "id": "ridge_cam_n",
+      "name": "Pass north observer",
+      "color": "#f6bd60",
+      "position_xyz": [
+        18.0,
+        60.0,
+        24.25634419499998
+      ],
+      "view_radius_m": 70.0,
+      "view_start_angle_deg": 215.0,
+      "view_end_angle_deg": 320.0
+    },
+    {
+      "id": "ridge_cam_e",
+      "name": "Pass east observer",
+      "color": "#cdb4db",
+      "position_xyz": [
+        80.0,
+        8.0,
+        8.722966013333332
+      ],
+      "view_radius_m": 65.0,
+      "view_start_angle_deg": 135.0,
+      "view_end_angle_deg": 225.0
+    }
+  ]
+}

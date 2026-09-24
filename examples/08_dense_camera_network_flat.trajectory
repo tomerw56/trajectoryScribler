@@ -1,0 +1,589 @@
+{
+  "version": 6,
+  "terrain_file": "../terrains/stability_demo_flat.terrain",
+  "covariance_scope": "prediction_xy",
+  "targets": [
+    {
+      "id": "dense_bird_1",
+      "name": "Dense bird 1 \u2014 west/east",
+      "color": "#46d36f",
+      "scribble_xy": [
+        [
+          -92.0,
+          -55.0
+        ],
+        [
+          92.0,
+          -55.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 3.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "dense_bird_2",
+      "name": "Dense bird 2 \u2014 diagonal up",
+      "color": "#4aa8ff",
+      "scribble_xy": [
+        [
+          -92.0,
+          -42.0
+        ],
+        [
+          92.0,
+          42.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 3.8,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "dense_bird_3",
+      "name": "Dense bird 3 \u2014 diagonal down",
+      "color": "#ffd166",
+      "scribble_xy": [
+        [
+          -92.0,
+          42.0
+        ],
+        [
+          92.0,
+          -42.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 4.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "dense_bird_4",
+      "name": "Dense bird 4 \u2014 broad arc",
+      "color": "#e66cff",
+      "scribble_xy": [
+        [
+          -61.81925288250037,
+          -16.56441888656133
+        ],
+        [
+          -59.27980522305976,
+          -24.122700775744345
+        ],
+        [
+          -55.82024092138275,
+          -31.306560070994493
+        ],
+        [
+          -51.49425790506677,
+          -38.00449187670411
+        ],
+        [
+          -46.36900229499344,
+          -44.11253366297262
+        ],
+        [
+          -40.524026190984934,
+          -49.53587892903857
+        ],
+        [
+          -34.05005289698155,
+          -54.190348750610184
+        ],
+        [
+          -27.047568751404746,
+          -58.0036983703456
+        ],
+        [
+          -19.625263419733404,
+          -60.91673855112463
+        ],
+        [
+          -11.898342858426563,
+          -62.88425428693044
+        ],
+        [
+          -3.986741135670533,
+          -63.87570661149004
+        ],
+        [
+          3.9867411356705094,
+          -63.87570661149004
+        ],
+        [
+          11.89834285842654,
+          -62.88425428693044
+        ],
+        [
+          19.625263419733436,
+          -60.916738551124624
+        ],
+        [
+          27.047568751404775,
+          -58.003698370345596
+        ],
+        [
+          34.050052896981576,
+          -54.19034875061016
+        ],
+        [
+          40.52402619098491,
+          -49.53587892903858
+        ],
+        [
+          46.36900229499344,
+          -44.11253366297262
+        ],
+        [
+          51.49425790506675,
+          -38.00449187670413
+        ],
+        [
+          55.82024092138274,
+          -31.306560070994514
+        ],
+        [
+          59.279805223059775,
+          -24.122700775744313
+        ],
+        [
+          61.81925288250037,
+          -16.564418886561324
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 4.3,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "dense_bird_5",
+      "name": "Dense bird 5 \u2014 S",
+      "color": "#ff6b6b",
+      "scribble_xy": [
+        [
+          -90.0,
+          8.0
+        ],
+        [
+          -60.0,
+          28.0
+        ],
+        [
+          -30.0,
+          5.0
+        ],
+        [
+          0.0,
+          30.0
+        ],
+        [
+          30.0,
+          4.0
+        ],
+        [
+          60.0,
+          27.0
+        ],
+        [
+          90.0,
+          8.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 5.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "dense_bird_6",
+      "name": "Dense bird 6 \u2014 box turns",
+      "color": "#7bdff2",
+      "scribble_xy": [
+        [
+          -75.0,
+          55.0
+        ],
+        [
+          -25.0,
+          55.0
+        ],
+        [
+          -25.0,
+          18.0
+        ],
+        [
+          25.0,
+          18.0
+        ],
+        [
+          25.0,
+          55.0
+        ],
+        [
+          75.0,
+          55.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 5.6,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "dense_bird_7",
+      "name": "Dense bird 7 \u2014 low wander",
+      "color": "#b8f2a1",
+      "scribble_xy": [
+        [
+          -90.0,
+          -15.0
+        ],
+        [
+          -55.0,
+          -14.0
+        ],
+        [
+          -20.0,
+          -17.0
+        ],
+        [
+          20.0,
+          -14.0
+        ],
+        [
+          55.0,
+          -16.0
+        ],
+        [
+          90.0,
+          -15.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 3.5,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "dense_bird_8",
+      "name": "Dense bird 8 \u2014 tight arc",
+      "color": "#ff9f43",
+      "scribble_xy": [
+        [
+          10.13785102532595,
+          -32.574617084341824
+        ],
+        [
+          15.684100988274292,
+          -32.99164171387313
+        ],
+        [
+          21.20335793334508,
+          -32.30418192055577
+        ],
+        [
+          26.477844947564037,
+          -30.539363252823645
+        ],
+        [
+          31.299443164404103,
+          -27.766821309316775
+        ],
+        [
+          35.477903645336774,
+          -24.09595408174996
+        ],
+        [
+          38.848354156005335,
+          -19.67160536716221
+        ],
+        [
+          41.277804637267565,
+          -14.668349571958972
+        ],
+        [
+          42.67039468050348,
+          -9.283603415953065
+        ],
+        [
+          42.97117595414001,
+          -3.72983633238089
+        ],
+        [
+          42.1682803357279,
+          1.773813076790696
+        ],
+        [
+          40.293388200172416,
+          7.010183735288088
+        ],
+        [
+          37.42047838656453,
+          11.772660758436409
+        ],
+        [
+          33.66290916698466,
+          15.873327991120146
+        ],
+        [
+          29.16894539539259,
+          19.150382737803206
+        ],
+        [
+          24.115908324800387,
+          21.47452011678087
+        ],
+        [
+          18.703178927199428,
+          22.754035127043167
+        ],
+        [
+          13.144330788799989,
+          22.9384411121774
+        ],
+        [
+          7.65870299805578,
+          22.02046184522472
+        ],
+        [
+          2.462745540514451,
+          20.03631863150231
+        ],
+        [
+          -2.2385213091184326,
+          17.064301100988217
+        ],
+        [
+          -6.259596605376661,
+          13.221678083443827
+        ],
+        [
+          -9.441818163554672,
+          8.660070455884513
+        ],
+        [
+          -11.65962299677988,
+          3.559468538966968
+        ],
+        [
+          -12.825501736496697,
+          -1.8788698982228915
+        ],
+        [
+          -12.893451546568876,
+          -7.4403607969344225
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 5.4,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    }
+  ],
+  "cameramen": [
+    {
+      "id": "dense_cam_w",
+      "name": "Dense west",
+      "color": "#8bd3dd",
+      "position_xyz": [
+        -82.0,
+        0.0,
+        10.0
+      ],
+      "view_radius_m": 52.0,
+      "view_start_angle_deg": -45.0,
+      "view_end_angle_deg": 45.0
+    },
+    {
+      "id": "dense_cam_nw",
+      "name": "Dense north-west",
+      "color": "#b8f2a1",
+      "position_xyz": [
+        -55.0,
+        55.0,
+        10.0
+      ],
+      "view_radius_m": 52.0,
+      "view_start_angle_deg": -70.0,
+      "view_end_angle_deg": 20.0
+    },
+    {
+      "id": "dense_cam_n",
+      "name": "Dense north",
+      "color": "#f6bd60",
+      "position_xyz": [
+        0.0,
+        65.0,
+        10.0
+      ],
+      "view_radius_m": 52.0,
+      "view_start_angle_deg": 220.0,
+      "view_end_angle_deg": 320.0
+    },
+    {
+      "id": "dense_cam_ne",
+      "name": "Dense north-east",
+      "color": "#ffafcc",
+      "position_xyz": [
+        55.0,
+        55.0,
+        10.0
+      ],
+      "view_radius_m": 52.0,
+      "view_start_angle_deg": 160.0,
+      "view_end_angle_deg": 250.0
+    },
+    {
+      "id": "dense_cam_e",
+      "name": "Dense east",
+      "color": "#cdb4db",
+      "position_xyz": [
+        82.0,
+        0.0,
+        10.0
+      ],
+      "view_radius_m": 52.0,
+      "view_start_angle_deg": 135.0,
+      "view_end_angle_deg": 225.0
+    },
+    {
+      "id": "dense_cam_se",
+      "name": "Dense south-east",
+      "color": "#9b8cff",
+      "position_xyz": [
+        55.0,
+        -55.0,
+        10.0
+      ],
+      "view_radius_m": 52.0,
+      "view_start_angle_deg": 110.0,
+      "view_end_angle_deg": 200.0
+    },
+    {
+      "id": "dense_cam_s",
+      "name": "Dense south",
+      "color": "#ffffff",
+      "position_xyz": [
+        0.0,
+        -65.0,
+        10.0
+      ],
+      "view_radius_m": 52.0,
+      "view_start_angle_deg": 40.0,
+      "view_end_angle_deg": 140.0
+    },
+    {
+      "id": "dense_cam_sw",
+      "name": "Dense south-west",
+      "color": "#7bdff2",
+      "position_xyz": [
+        -55.0,
+        -55.0,
+        10.0
+      ],
+      "view_radius_m": 52.0,
+      "view_start_angle_deg": -20.0,
+      "view_end_angle_deg": 75.0
+    }
+  ]
+}

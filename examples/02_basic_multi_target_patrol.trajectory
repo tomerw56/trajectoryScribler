@@ -1,0 +1,244 @@
+{
+  "version": 6,
+  "terrain_file": "../terrains/stability_demo_flat.terrain",
+  "covariance_scope": "prediction_xy",
+  "targets": [
+    {
+      "id": "patrol_horizontal",
+      "name": "Horizontal patrol",
+      "color": "#46d36f",
+      "scribble_xy": [
+        [
+          -85.0,
+          -45.0
+        ],
+        [
+          85.0,
+          -45.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 3.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "patrol_diagonal",
+      "name": "Diagonal patrol",
+      "color": "#4aa8ff",
+      "scribble_xy": [
+        [
+          -80.0,
+          -10.0
+        ],
+        [
+          80.0,
+          50.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 3.5,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "patrol_arc",
+      "name": "Curved patrol",
+      "color": "#ffd166",
+      "scribble_xy": [
+        [
+          -47.1280049259058,
+          -21.976149610516362
+        ],
+        [
+          -43.27839238955845,
+          -28.82673675904731
+        ],
+        [
+          -38.440450205175,
+          -35.019020374982816
+        ],
+        [
+          -32.72466033459157,
+          -40.41158999576247
+        ],
+        [
+          -26.261551761883897,
+          -44.88129787626348
+        ],
+        [
+          -19.198719660259606,
+          -48.32607125979476
+        ],
+        [
+          -11.697454825880993,
+          -50.667243368832224
+        ],
+        [
+          -3.9290603507587853,
+          -51.85134988368283
+        ],
+        [
+          3.929060350758813,
+          -51.85134988368282
+        ],
+        [
+          11.697454825880977,
+          -50.66724336883223
+        ],
+        [
+          19.198719660259545,
+          -48.32607125979479
+        ],
+        [
+          26.26155176188384,
+          -44.88129787626351
+        ],
+        [
+          32.72466033459155,
+          -40.41158999576248
+        ],
+        [
+          38.44045020517497,
+          -35.019020374982844
+        ],
+        [
+          43.27839238955843,
+          -28.826736759047346
+        ],
+        [
+          47.1280049259058,
+          -21.97614961051636
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 4.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "patrol_turns",
+      "name": "Turning patrol",
+      "color": "#ff6b6b",
+      "scribble_xy": [
+        [
+          -85.0,
+          45.0
+        ],
+        [
+          -35.0,
+          45.0
+        ],
+        [
+          -35.0,
+          5.0
+        ],
+        [
+          25.0,
+          5.0
+        ],
+        [
+          25.0,
+          45.0
+        ],
+        [
+          85.0,
+          45.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 5.0,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 5.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    }
+  ],
+  "cameramen": [
+    {
+      "id": "patrol_cam_w",
+      "name": "Patrol west",
+      "color": "#8bd3dd",
+      "position_xyz": [
+        -65.0,
+        0.0,
+        10.0
+      ],
+      "view_radius_m": 60.0,
+      "view_start_angle_deg": -55.0,
+      "view_end_angle_deg": 55.0
+    },
+    {
+      "id": "patrol_cam_c",
+      "name": "Patrol center",
+      "color": "#ffffff",
+      "position_xyz": [
+        0.0,
+        5.0,
+        10.0
+      ],
+      "view_radius_m": 50.0,
+      "view_start_angle_deg": 20.0,
+      "view_end_angle_deg": 160.0
+    },
+    {
+      "id": "patrol_cam_e",
+      "name": "Patrol east",
+      "color": "#cdb4db",
+      "position_xyz": [
+        65.0,
+        25.0,
+        10.0
+      ],
+      "view_radius_m": 60.0,
+      "view_start_angle_deg": 125.0,
+      "view_end_angle_deg": 235.0
+    }
+  ]
+}

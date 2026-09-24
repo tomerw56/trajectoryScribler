@@ -1,0 +1,463 @@
+{
+  "version": 6,
+  "terrain_file": "../terrains/big_top.terrain",
+  "covariance_scope": "full_3d",
+  "targets": [
+    {
+      "id": "pair_a_clearance",
+      "name": "Route A \u2014 terrain clearance",
+      "color": "#46d36f",
+      "scribble_xy": [
+        [
+          -92.0,
+          -28.0
+        ],
+        [
+          -45.0,
+          -25.0
+        ],
+        [
+          0.0,
+          -22.0
+        ],
+        [
+          45.0,
+          -25.0
+        ],
+        [
+          92.0,
+          -28.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 7,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 4.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "pair_a_cruise",
+      "name": "Route A \u2014 cruise altitude",
+      "color": "#7bdff2",
+      "scribble_xy": [
+        [
+          -92.0,
+          -28.0
+        ],
+        [
+          -45.0,
+          -25.0
+        ],
+        [
+          0.0,
+          -22.0
+        ],
+        [
+          45.0,
+          -25.0
+        ],
+        [
+          92.0,
+          -28.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "cruise_altitude",
+        "clearance_m": 5,
+        "cruise_altitude_m": 115,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 4.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "pair_b_clearance",
+      "name": "Route B \u2014 terrain clearance",
+      "color": "#ffd166",
+      "scribble_xy": [
+        [
+          -88.0,
+          8.0
+        ],
+        [
+          -52.0,
+          28.0
+        ],
+        [
+          -15.0,
+          8.0
+        ],
+        [
+          20.0,
+          30.0
+        ],
+        [
+          55.0,
+          10.0
+        ],
+        [
+          88.0,
+          26.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 7,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 4.8,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "pair_b_cruise",
+      "name": "Route B \u2014 cruise altitude",
+      "color": "#ff9f43",
+      "scribble_xy": [
+        [
+          -88.0,
+          8.0
+        ],
+        [
+          -52.0,
+          28.0
+        ],
+        [
+          -15.0,
+          8.0
+        ],
+        [
+          20.0,
+          30.0
+        ],
+        [
+          55.0,
+          10.0
+        ],
+        [
+          88.0,
+          26.0
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "cruise_altitude",
+        "clearance_m": 5,
+        "cruise_altitude_m": 118,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 4.8,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "pair_c_clearance",
+      "name": "Route C \u2014 terrain clearance",
+      "color": "#e66cff",
+      "scribble_xy": [
+        [
+          -61.81925288250037,
+          -16.56441888656133
+        ],
+        [
+          -59.27980522305976,
+          -24.122700775744345
+        ],
+        [
+          -55.82024092138275,
+          -31.306560070994493
+        ],
+        [
+          -51.49425790506677,
+          -38.00449187670411
+        ],
+        [
+          -46.36900229499344,
+          -44.11253366297262
+        ],
+        [
+          -40.524026190984934,
+          -49.53587892903857
+        ],
+        [
+          -34.05005289698155,
+          -54.190348750610184
+        ],
+        [
+          -27.047568751404746,
+          -58.0036983703456
+        ],
+        [
+          -19.625263419733404,
+          -60.91673855112463
+        ],
+        [
+          -11.898342858426563,
+          -62.88425428693044
+        ],
+        [
+          -3.986741135670533,
+          -63.87570661149004
+        ],
+        [
+          3.9867411356705094,
+          -63.87570661149004
+        ],
+        [
+          11.89834285842654,
+          -62.88425428693044
+        ],
+        [
+          19.625263419733436,
+          -60.916738551124624
+        ],
+        [
+          27.047568751404775,
+          -58.003698370345596
+        ],
+        [
+          34.050052896981576,
+          -54.19034875061016
+        ],
+        [
+          40.52402619098491,
+          -49.53587892903858
+        ],
+        [
+          46.36900229499344,
+          -44.11253366297262
+        ],
+        [
+          51.49425790506675,
+          -38.00449187670413
+        ],
+        [
+          55.82024092138274,
+          -31.306560070994514
+        ],
+        [
+          59.279805223059775,
+          -24.122700775744313
+        ],
+        [
+          61.81925288250037,
+          -16.564418886561324
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "terrain_clearance",
+        "clearance_m": 7,
+        "cruise_altitude_m": 25.0,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 5.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    },
+    {
+      "id": "pair_c_cruise",
+      "name": "Route C \u2014 cruise altitude",
+      "color": "#9b8cff",
+      "scribble_xy": [
+        [
+          -61.81925288250037,
+          -16.56441888656133
+        ],
+        [
+          -59.27980522305976,
+          -24.122700775744345
+        ],
+        [
+          -55.82024092138275,
+          -31.306560070994493
+        ],
+        [
+          -51.49425790506677,
+          -38.00449187670411
+        ],
+        [
+          -46.36900229499344,
+          -44.11253366297262
+        ],
+        [
+          -40.524026190984934,
+          -49.53587892903857
+        ],
+        [
+          -34.05005289698155,
+          -54.190348750610184
+        ],
+        [
+          -27.047568751404746,
+          -58.0036983703456
+        ],
+        [
+          -19.625263419733404,
+          -60.91673855112463
+        ],
+        [
+          -11.898342858426563,
+          -62.88425428693044
+        ],
+        [
+          -3.986741135670533,
+          -63.87570661149004
+        ],
+        [
+          3.9867411356705094,
+          -63.87570661149004
+        ],
+        [
+          11.89834285842654,
+          -62.88425428693044
+        ],
+        [
+          19.625263419733436,
+          -60.916738551124624
+        ],
+        [
+          27.047568751404775,
+          -58.003698370345596
+        ],
+        [
+          34.050052896981576,
+          -54.19034875061016
+        ],
+        [
+          40.52402619098491,
+          -49.53587892903858
+        ],
+        [
+          46.36900229499344,
+          -44.11253366297262
+        ],
+        [
+          51.49425790506675,
+          -38.00449187670413
+        ],
+        [
+          55.82024092138274,
+          -31.306560070994514
+        ],
+        [
+          59.279805223059775,
+          -24.122700775744313
+        ],
+        [
+          61.81925288250037,
+          -16.564418886561324
+        ]
+      ],
+      "trajectory_config": {
+        "path_resolution_m": 0.25,
+        "altitude_mode": "cruise_altitude",
+        "clearance_m": 5,
+        "cruise_altitude_m": 120,
+        "max_climb_angle_deg": 18.0,
+        "smoothing_passes": 2
+      },
+      "motion_config": {
+        "speed_mps": 5.0,
+        "sample_dt_sec": 0.25,
+        "covariance_sample_rate_sec": 0.5,
+        "covariance_window_sec": 5.0,
+        "prediction_dt_sec": 2.0,
+        "covariance_stability_window_sec": 6.0
+      }
+    }
+  ],
+  "cameramen": [
+    {
+      "id": "pair_cam_w",
+      "name": "Pair west",
+      "color": "#8bd3dd",
+      "position_xyz": [
+        -80.0,
+        0.0,
+        10.7887657
+      ],
+      "view_radius_m": 72.0,
+      "view_start_angle_deg": -45.0,
+      "view_end_angle_deg": 50.0
+    },
+    {
+      "id": "pair_cam_s",
+      "name": "Pair south",
+      "color": "#b8f2a1",
+      "position_xyz": [
+        0.0,
+        -62.0,
+        16.49434954
+      ],
+      "view_radius_m": 72.0,
+      "view_start_angle_deg": 40.0,
+      "view_end_angle_deg": 140.0
+    },
+    {
+      "id": "pair_cam_n",
+      "name": "Pair north",
+      "color": "#f6bd60",
+      "position_xyz": [
+        0.0,
+        62.0,
+        16.446286066666666
+      ],
+      "view_radius_m": 72.0,
+      "view_start_angle_deg": 220.0,
+      "view_end_angle_deg": 320.0
+    },
+    {
+      "id": "pair_cam_e",
+      "name": "Pair east",
+      "color": "#cdb4db",
+      "position_xyz": [
+        80.0,
+        5.0,
+        11.714198099999994
+      ],
+      "view_radius_m": 72.0,
+      "view_start_angle_deg": 130.0,
+      "view_end_angle_deg": 230.0
+    }
+  ]
+}

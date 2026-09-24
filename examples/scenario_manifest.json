@@ -1,0 +1,242 @@
+[
+  {
+    "project": "01_covariance_showcase_flat.trajectory",
+    "terrain": "stability_demo_flat.terrain",
+    "covariance_scope": "prediction_xy",
+    "bird_count": 6,
+    "cameraman_count": 5,
+    "birds": [
+      "Straight \u2014 tiny covariance",
+      "Near-straight \u2014 small covariance",
+      "Gentle arc \u2014 moderate covariance",
+      "Tight arc \u2014 sustained changing",
+      "S-curve \u2014 large covariance",
+      "Zigzag \u2014 very large covariance"
+    ],
+    "cameramen": [
+      "West observer",
+      "South observer",
+      "North observer",
+      "East observer",
+      "Center observer"
+    ]
+  },
+  {
+    "project": "02_basic_multi_target_patrol.trajectory",
+    "terrain": "stability_demo_flat.terrain",
+    "covariance_scope": "prediction_xy",
+    "bird_count": 4,
+    "cameraman_count": 3,
+    "birds": [
+      "Horizontal patrol",
+      "Diagonal patrol",
+      "Curved patrol",
+      "Turning patrol"
+    ],
+    "cameramen": [
+      "Patrol west",
+      "Patrol center",
+      "Patrol east"
+    ]
+  },
+  {
+    "project": "03_full_3d_hills_showcase.trajectory",
+    "terrain": "multi_hills.terrain",
+    "covariance_scope": "full_3d",
+    "bird_count": 4,
+    "cameraman_count": 4,
+    "birds": [
+      "Hill crossing \u2014 straight XY",
+      "Hill diagonal \u2014 mixed XYZ covariance",
+      "Hill S-curve \u2014 large 3D covariance",
+      "Cruise-altitude route"
+    ],
+    "cameramen": [
+      "South-west hill observer",
+      "North-west hill observer",
+      "Central hill observer",
+      "East hill observer"
+    ]
+  },
+  {
+    "project": "04_canyon_crossings.trajectory",
+    "terrain": "canyon.terrain",
+    "covariance_scope": "full_3d",
+    "bird_count": 5,
+    "cameraman_count": 5,
+    "birds": [
+      "Canyon low crossing",
+      "Canyon diagonal",
+      "Canyon S-curve",
+      "Canyon hard turn",
+      "Canyon cruise-altitude bird"
+    ],
+    "cameramen": [
+      "Canyon west",
+      "Canyon south-west",
+      "Canyon center",
+      "Canyon north-east",
+      "Canyon east"
+    ]
+  },
+  {
+    "project": "05_ridge_pass_watch.trajectory",
+    "terrain": "ridge_pass.terrain",
+    "covariance_scope": "full_3d",
+    "bird_count": 6,
+    "cameraman_count": 5,
+    "birds": [
+      "Pass west-to-east",
+      "Pass east-to-west",
+      "Northern ridge arc",
+      "Southern pass S-curve",
+      "Pass turning bird",
+      "High cruise over pass"
+    ],
+    "cameramen": [
+      "Pass west observer",
+      "Pass south observer",
+      "Pass middle observer",
+      "Pass north observer",
+      "Pass east observer"
+    ]
+  },
+  {
+    "project": "06_big_top_orbits.trajectory",
+    "terrain": "big_top.terrain",
+    "covariance_scope": "full_3d",
+    "bird_count": 6,
+    "cameraman_count": 5,
+    "birds": [
+      "Outer mountain arc",
+      "Inner mountain arc",
+      "Summit crossing",
+      "Mountain S-route",
+      "Fast summit turns",
+      "High cruise orbit"
+    ],
+    "cameramen": [
+      "Mountain west",
+      "Mountain south-west",
+      "Mountain south",
+      "Mountain north-east",
+      "Mountain east"
+    ]
+  },
+  {
+    "project": "07_multi_hills_mixed_flock.trajectory",
+    "terrain": "multi_hills.terrain",
+    "covariance_scope": "prediction_xy",
+    "bird_count": 7,
+    "cameraman_count": 6,
+    "birds": [
+      "Flock A \u2014 straight",
+      "Flock B \u2014 diagonal",
+      "Flock C \u2014 broad arc",
+      "Flock D \u2014 S route",
+      "Flock E \u2014 repeated turns",
+      "Flock F \u2014 low wander",
+      "Flock G \u2014 cruise"
+    ],
+    "cameramen": [
+      "Hill west",
+      "Hill south-west",
+      "Hill center",
+      "Hill north",
+      "Hill south-east",
+      "Hill east"
+    ]
+  },
+  {
+    "project": "08_dense_camera_network_flat.trajectory",
+    "terrain": "stability_demo_flat.terrain",
+    "covariance_scope": "prediction_xy",
+    "bird_count": 8,
+    "cameraman_count": 8,
+    "birds": [
+      "Dense bird 1 \u2014 west/east",
+      "Dense bird 2 \u2014 diagonal up",
+      "Dense bird 3 \u2014 diagonal down",
+      "Dense bird 4 \u2014 broad arc",
+      "Dense bird 5 \u2014 S",
+      "Dense bird 6 \u2014 box turns",
+      "Dense bird 7 \u2014 low wander",
+      "Dense bird 8 \u2014 tight arc"
+    ],
+    "cameramen": [
+      "Dense west",
+      "Dense north-west",
+      "Dense north",
+      "Dense north-east",
+      "Dense east",
+      "Dense south-east",
+      "Dense south",
+      "Dense south-west"
+    ]
+  },
+  {
+    "project": "09_sparse_camera_challenge_canyon.trajectory",
+    "terrain": "canyon.terrain",
+    "covariance_scope": "prediction_xy",
+    "bird_count": 6,
+    "cameraman_count": 3,
+    "birds": [
+      "Sparse challenge straight",
+      "Sparse challenge diagonal",
+      "Sparse challenge arc",
+      "Sparse challenge S",
+      "Sparse challenge turns",
+      "Sparse challenge cruise"
+    ],
+    "cameramen": [
+      "Sparse west",
+      "Sparse center",
+      "Sparse east"
+    ]
+  },
+  {
+    "project": "10_clearance_vs_cruise_big_top.trajectory",
+    "terrain": "big_top.terrain",
+    "covariance_scope": "full_3d",
+    "bird_count": 6,
+    "cameraman_count": 4,
+    "birds": [
+      "Route A \u2014 terrain clearance",
+      "Route A \u2014 cruise altitude",
+      "Route B \u2014 terrain clearance",
+      "Route B \u2014 cruise altitude",
+      "Route C \u2014 terrain clearance",
+      "Route C \u2014 cruise altitude"
+    ],
+    "cameramen": [
+      "Pair west",
+      "Pair south",
+      "Pair north",
+      "Pair east"
+    ]
+  },
+  {
+    "project": "11_high_variance_maneuvers_flat.trajectory",
+    "terrain": "stability_demo_flat.terrain",
+    "covariance_scope": "prediction_xy",
+    "bird_count": 7,
+    "cameraman_count": 6,
+    "birds": [
+      "Baseline straight",
+      "Sawtooth fast",
+      "Sawtooth tighter",
+      "Repeated box turns",
+      "Very tight arc",
+      "Reverse S maneuver",
+      "Moderate wander control"
+    ],
+    "cameramen": [
+      "Variance west",
+      "Variance south-west",
+      "Variance north",
+      "Variance center",
+      "Variance south-east",
+      "Variance east"
+    ]
+  }
+]
