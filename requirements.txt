@@ -3,3 +3,5 @@ PySide6>=6.7
 pyqtgraph>=0.13.7
 dash>=2.18
 plotly>=5.24
+shapely
+matplotlib

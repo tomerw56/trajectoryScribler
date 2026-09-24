@@ -109,6 +109,15 @@ def build_layout(repository: ScenarioRepository):
                                 className="cnc-section-title",
                             ),
                             html.Div(
+                            html.Button(
+                                    "Generate Scenario",
+                                    id="cnc-generate-scenario-button",
+                                    className="cnc-solve-button",
+                                    n_clicks=0,
+                                    title="Generate New Scenario.",
+                                ),
+                            ),
+                            html.Div(
                                 "Prediction time (s)",
                                 className="control-label",
                             ),
